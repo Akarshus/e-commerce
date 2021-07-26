@@ -13,6 +13,7 @@ const Header = ()=>{
             <div className='options'>
                 <Link to ='/shop' className='option'>Shop</Link>
                 <Link to ='/shop' className='option'>Contact</Link>
+                <Link to ='/login' className='option'>Login</Link>
             </div>
         </div>
         </>
