@@ -1,5 +1,6 @@
 import React from 'react'
 import './preview.scss'
+import Item from '../../collection/item'
 
 const Preview =({title, items})=>{
     return(
@@ -9,7 +10,7 @@ const Preview =({title, items})=>{
             <div className='preview'>
                 {
                     items.map((item)=>{
-                        return <div key={item.id}> {item.name} </div>
+                        return < Item key={item.id} {...item}/>
                     })
                 }
             </div>
